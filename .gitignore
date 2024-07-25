@@ -1,0 +1,6 @@
+/gcore.ini
+/domains.txt
+/servers.txt
+/edge/certbot
+/edge/epoxy-server
+/edge/domains.conf
