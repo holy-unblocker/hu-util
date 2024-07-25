@@ -14,7 +14,7 @@ cp -r $edge/certbot /etc/nginx/
 
 cp /home/hu/epoxy-tls/target/release/epoxy-server $edge
 
-startcmd="/usr/sbin/nginx -t;\
+startcmd="nginx -t;\
 systemctl restart nginx;\
 cd /home/hu/edge;\
 sudo -u hu pm2 start;\
